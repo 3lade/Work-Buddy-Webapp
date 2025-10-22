@@ -1,0 +1,222 @@
+/* WfhForm.css - Following Dark Theme (MUI) */
+
+.wfh-form-container {
+  padding: 2rem 1rem;
+  min-height: calc(100vh - 64px);
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+}
+
+.wfh-form-card {
+  background: white !important;
+  padding: 2.5rem 2rem !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba(11, 27, 43, 0.1) !important;
+}
+
+.wfh-form-title {
+  font-weight: 700 !important;
+  color: #0b1b2b !important;
+  text-align: center;
+  margin-bottom: 2rem !important;
+  letter-spacing: 0.5px;
+}
+
+.wfh-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group-wfh {
+  margin-bottom: 0.5rem;
+}
+
+.wfh-textfield {
+  background-color: white;
+}
+
+.wfh-textfield .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.wfh-textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #0b1b2b;
+}
+
+.wfh-textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #0b1b2b;
+}
+
+.wfh-textfield .MuiInputLabel-root.Mui-focused {
+  color: #0b1b2b;
+}
+
+.wfh-textfield .MuiFormHelperText-root.Mui-error {
+  font-weight: 500;
+}
+
+.form-buttons-wfh {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-submit-wfh {
+  background-color: #000000 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.btn-submit-wfh:hover {
+  background-color: #1a1a1a !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+  transform: translateY(-1px);
+}
+
+.btn-submit-wfh:disabled {
+  background-color: #95a5a6 !important;
+  box-shadow: none !important;
+  transform: none;
+}
+
+.btn-back-wfh {
+  border-color: #95a5a6 !important;
+  color: #0b1b2b !important;
+  text-transform: none !important;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-back-wfh:hover {
+  background-color: #ecf0f1 !important;
+  border-color: #7f8c8d !important;
+}
+
+/* Success Dialog Styles */
+.success-dialog-paper-wfh {
+  border-radius: 12px !important;
+  min-width: 400px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.success-dialog-title-wfh {
+  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  color: white !important;
+  padding: 1.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog-title-content-success-wfh {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.success-icon-wfh {
+  color: white !important;
+  font-size: 1.75rem !important;
+}
+
+.close-button-success-wfh {
+  color: white !important;
+  padding: 0.25rem !important;
+}
+
+.close-button-success-wfh:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.success-dialog-content-wfh {
+  padding: 2rem !important;
+  background-color: #fafafa;
+}
+
+.dialog-text-success-wfh {
+  color: #0b1b2b !important;
+  font-size: 1rem !important;
+  text-align: center;
+}
+
+.success-dialog-actions-wfh {
+  padding: 1rem 1.5rem 1.5rem !important;
+  background-color: #fafafa;
+  justify-content: center !important;
+}
+
+.btn-ok-wfh {
+  background-color: #27ae60 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 0.5rem 2rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+  min-width: 120px;
+}
+
+.btn-ok-wfh:hover {
+  background-color: #229954 !important;
+  box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .wfh-form-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .wfh-form-card {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .wfh-form-title {
+    font-size: 1.75rem !important;
+  }
+
+  .form-buttons-wfh {
+    flex-direction: column;
+  }
+
+  .btn-submit-wfh,
+  .btn-back-wfh {
+    width: 100%;
+    padding: 0.75rem 1.5rem !important;
+  }
+
+  .success-dialog-paper-wfh {
+    min-width: 300px;
+    margin: 1rem;
+  }
+
+  .btn-ok-wfh {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .wfh-form-card {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .wfh-form-title {
+    font-size: 1.5rem !important;
+  }
+
+  .wfh-form {
+    gap: 1rem;
+  }
+}

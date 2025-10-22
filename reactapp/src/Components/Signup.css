@@ -1,0 +1,77 @@
+/* Signup.css */
+
+.signup-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #008080, #20c997);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .signup-card {
+    border-radius: 12px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+    background-color: #fff !important;
+  }
+  
+  .signup-card-content {
+    padding: 2rem !important;
+  }
+  
+  .signup-title {
+    margin-bottom: 1.5rem !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    text-align: center;
+  }
+  
+  .signup-form {
+    width: 100%;
+  }
+  
+  .signup-submit-btn {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    background-color: #1976d2 !important;
+    color: #fff !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+  }
+  
+  .signup-submit-btn:hover {
+    background-color: #1565c0 !important;
+  }
+  
+  .signup-link-container {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .signup-link {
+    font-weight: 600 !important;
+    color: #1976d2 !important;
+  }
+  
+  .signup-dialog-title {
+    text-align: center !important;
+    padding-top: 1.5rem !important;
+  }
+  
+  .signup-dialog-content {
+    text-align: center !important;
+    padding-bottom: 1rem !important;
+  }
+  
+  .signup-dialog-actions {
+    justify-content: center !important;
+    padding-bottom: 1.5rem !important;
+  }
+  
+  .signup-dialog-btn {
+    min-width: 100px !important;
+  }
+  

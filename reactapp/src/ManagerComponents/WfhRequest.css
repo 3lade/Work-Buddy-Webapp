@@ -1,0 +1,322 @@
+/* WfhRequest.css - Following Dark Theme */
+
+.wfh-container {
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+}
+
+.wfh-heading {
+  font-weight: 600 !important;
+  color: #0b1b2b !important;
+  margin-bottom: 1.5rem !important;
+  text-align: center;
+}
+
+.controls-container-wfh {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.search-input-wfh,
+.filter-select-wfh {
+  flex: 1;
+  min-width: 250px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.table-container-wfh {
+  border-radius: 12px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  margin-bottom: 2rem;
+}
+
+.table-header-wfh {
+  background: linear-gradient(135deg, #020407 0%, #05070a 100%) !important;
+}
+
+.table-header-cell-wfh {
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sort-btn-wfh {
+  transition: all 0.3s ease !important;
+  border-radius: 6px !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  background-color: transparent !important;
+  padding: 6px !important;
+  border: 1px solid transparent !important;
+}
+
+.sort-btn-wfh.active {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: white !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.sort-btn-wfh:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  transform: translateY(-1px);
+}
+
+.sort-btn-wfh:active {
+  transform: translateY(0);
+}
+
+.table-row-wfh {
+  transition: all 0.2s ease;
+}
+
+.table-row-wfh:nth-of-type(even) {
+  background-color: #fafafa;
+}
+
+.status-chip {
+  font-weight: 600 !important;
+  border-radius: 16px !important;
+}
+
+.action-buttons-wfh {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.approve-btn-wfh {
+  background-color: #27ae60 !important;
+  color: white !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.approve-btn-wfh:hover {
+  background-color: #229954 !important;
+  box-shadow: 0 4px 8px rgba(39, 174, 96, 0.3) !important;
+}
+
+.reject-btn-wfh {
+  background-color: #e74c3c !important;
+  color: white !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.reject-btn-wfh:hover {
+  background-color: #c0392b !important;
+  box-shadow: 0 4px 8px rgba(231, 76, 60, 0.3) !important;
+}
+
+.showmore-btn-wfh {
+  border-color: #000000 !important;
+  color: #0b1b2b !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.showmore-btn-wfh:hover {
+  background-color: #f5f5f5 !important;
+  border-color: #0b1b2b !important;
+}
+
+.loading-cell {
+  border: none !important;
+}
+
+.loading-container-wfh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.no-data-wfh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.pagination-container-wfh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.pagination-container-wfh .MuiPaginationItem-root.Mui-selected {
+  border-color: #000000 !important;
+  background-color: #000000 !important;
+}
+
+/* WFH Dialog Styles */
+.wfh-dialog-paper {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.wfh-dialog-title {
+  background: linear-gradient(135deg, #020407 0%, #0b1b2b 100%);
+  color: white !important;
+  padding: 1.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog-title-content-wfh {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.info-icon-wfh {
+  color: #3498db !important;
+  font-size: 1.75rem !important;
+}
+
+.close-button-wfh {
+  color: white !important;
+  padding: 0.25rem !important;
+}
+
+.close-button-wfh:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.wfh-dialog-content {
+  padding: 2rem !important;
+  background-color: #fafafa;
+}
+
+.modal-detail-wfh {
+  padding: 0.75rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.modal-label-wfh {
+  color: #0b1b2b !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem !important;
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
+  letter-spacing: 0.5px;
+}
+
+.modal-value-wfh {
+  color: #333 !important;
+  font-size: 1rem !important;
+}
+
+.wfh-dialog-actions {
+  padding: 1rem 1.5rem 1.5rem !important;
+  background-color: #fafafa;
+  gap: 0.75rem;
+  justify-content: flex-end !important;
+}
+
+.approve-btn-modal-wfh {
+  background-color: #27ae60 !important;
+  color: white !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  padding: 0.5rem 1.5rem !important;
+}
+
+.approve-btn-modal-wfh:hover {
+  background-color: #229954 !important;
+}
+
+.reject-btn-modal-wfh {
+  background-color: #e74c3c !important;
+  color: white !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  padding: 0.5rem 1.5rem !important;
+}
+
+.reject-btn-modal-wfh:hover {
+  background-color: #c0392b !important;
+}
+
+.close-btn-modal-wfh {
+  border-color: #95a5a6 !important;
+  color: #0b1b2b !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  padding: 0.5rem 1.5rem !important;
+}
+
+.close-btn-modal-wfh:hover {
+  background-color: #ecf0f1 !important;
+  border-color: #7f8c8d !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wfh-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .wfh-heading {
+    font-size: 1.5rem !important;
+  }
+
+  .controls-container-wfh {
+    flex-direction: column;
+  }
+
+  .search-input-wfh,
+  .filter-select-wfh {
+    min-width: 100%;
+  }
+
+  .table-container-wfh {
+    overflow-x: auto;
+  }
+
+  .action-buttons-wfh {
+    flex-direction: column;
+  }
+
+  .action-buttons-wfh button {
+    width: 100%;
+  }
+
+  .wfh-dialog-paper {
+    margin: 1rem;
+  }
+
+  .wfh-dialog-actions {
+    flex-direction: column;
+  }
+
+  .wfh-dialog-actions button {
+    width: 100%;
+  }
+}

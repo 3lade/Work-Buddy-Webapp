@@ -1,0 +1,321 @@
+/* HomePage.css - Following Dark Theme (MUI) */
+
+.homepage-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+  padding: 2rem 1rem;
+}
+
+.homepage-content {
+  padding: 3rem 2rem !important;
+}
+
+.homepage-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.homepage-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homepage-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.homepage-title {
+  font-weight: 700 !important;
+  color: #0b1b2b !important;
+  text-align: center;
+  margin-bottom: 1.5rem !important;
+  letter-spacing: 0.5px;
+}
+
+.homepage-description {
+  font-size: 1.1rem !important;
+  color: #555 !important;
+  text-align: center;
+  line-height: 1.8 !important;
+  margin-bottom: 3rem !important;
+  max-width: 800px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.features-section {
+  margin: 3rem 0;
+}
+
+.features-title {
+  font-weight: 700 !important;
+  color: #0b1b2b !important;
+  text-align: center;
+  margin-bottom: 2.5rem !important;
+  letter-spacing: 0.5px;
+}
+
+.features-grid {
+  margin-bottom: 3rem;
+}
+
+.feature-card {
+  height: 100%;
+  border-radius: 12px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  background: white !important;
+  border: 1px solid rgba(11, 27, 43, 0.1) !important;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.feature-card-content {
+  text-align: center;
+  padding: 2rem 1.5rem !important;
+}
+
+.feature-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.feature-icon {
+  font-size: 3rem !important;
+  color: #0b1b2b !important;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #e8eef5 0%, #d5dde8 100%);
+}
+
+.feature-card-title {
+  font-weight: 700 !important;
+  color: #0b1b2b !important;
+  margin-bottom: 1rem !important;
+  font-size: 1.25rem !important;
+}
+
+.feature-card-text {
+  color: #666 !important;
+  line-height: 1.6 !important;
+  font-size: 0.95rem !important;
+}
+
+.info-section {
+  background: white !important;
+  border-radius: 12px !important;
+  padding: 2.5rem 2rem !important;
+  margin-top: 3rem !important;
+  border: 1px solid rgba(11, 27, 43, 0.1) !important;
+}
+
+.info-title {
+  font-weight: 700 !important;
+  color: #0b1b2b !important;
+  text-align: center;
+  margin-bottom: 1.5rem !important;
+  letter-spacing: 0.5px;
+}
+
+.info-text {
+  font-size: 1.05rem !important;
+  color: #555 !important;
+  line-height: 1.8 !important;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto !important;
+}
+
+.contactUs-section {
+  background: white !important;
+  border-radius: 12px !important;
+  padding: 2.5rem 2rem !important;
+  margin-top: 2rem !important;
+  text-align: center;
+  border: 1px solid rgba(11, 27, 43, 0.1) !important;
+}
+
+.contactUs-section-title {
+  font-weight: 700 !important;
+  color: #0b1b2b !important;
+  margin-bottom: 1.5rem !important;
+  letter-spacing: 0.5px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.contact-icon {
+  font-size: 1.5rem !important;
+  color: #0b1b2b !important;
+}
+
+.contactUs-section-email,
+.contactUs-section-phone {
+  color: #555 !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .homepage-container {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .homepage-content {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .homepage-title {
+    font-size: 2rem !important;
+  }
+
+  .homepage-description {
+    font-size: 1rem !important;
+  }
+
+  .features-title {
+    font-size: 1.75rem !important;
+  }
+
+  .feature-card-content {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .feature-icon {
+    font-size: 2.5rem !important;
+  }
+
+  .info-section,
+  .contactUs-section {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .contact-details {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .homepage-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .homepage-content {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .homepage-title {
+    font-size: 1.75rem !important;
+  }
+
+  .homepage-description {
+    font-size: 0.95rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .features-title {
+    font-size: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .features-section {
+    margin: 2rem 0;
+  }
+
+  .feature-card-content {
+    padding: 1.25rem 0.75rem !important;
+  }
+
+  .feature-icon {
+    font-size: 2rem !important;
+    padding: 0.5rem;
+  }
+
+  .feature-card-title {
+    font-size: 1.1rem !important;
+  }
+
+  .feature-card-text {
+    font-size: 0.9rem !important;
+  }
+
+  .info-section,
+  .contactUs-section {
+    padding: 1.5rem 1rem !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .info-title,
+  .contactUs-section-title {
+    font-size: 1.4rem !important;
+  }
+
+  .info-text {
+    font-size: 0.95rem !important;
+  }
+
+  .contact-details {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-item {
+    justify-content: center;
+  }
+
+  .contactUs-section-email,
+  .contactUs-section-phone {
+    font-size: 0.95rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage-title {
+    font-size: 1.5rem !important;
+  }
+
+  .homepage-description {
+    font-size: 0.9rem !important;
+  }
+
+  .features-title {
+    font-size: 1.3rem !important;
+  }
+
+  .info-title,
+  .contactUs-section-title {
+    font-size: 1.25rem !important;
+  }
+
+  .info-text {
+    font-size: 0.9rem !important;
+  }
+}

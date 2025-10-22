@@ -1,0 +1,287 @@
+/* LeaveForm.css - Following Dark Theme (MUI) */
+
+.leave-form-container {
+  padding: 2rem 1rem;
+  min-height: calc(100vh - 64px);
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+}
+
+.leave-form-card {
+  background: white !important;
+  padding: 2.5rem 2rem !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba(11, 27, 43, 0.1) !important;
+  max-width: 900px;
+  margin: 0 auto !important;
+}
+
+.leave-form-title {
+  font-weight: 700 !important;
+  color: #0b1b2b !important;
+  text-align: center;
+  margin-bottom: 2rem !important;
+  letter-spacing: 0.5px;
+}
+
+.leave-form {
+  margin-top: 1rem;
+}
+
+.leave-textfield {
+  background-color: white;
+}
+
+.leave-textfield .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.leave-textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #0b1b2b;
+}
+
+.leave-textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #0b1b2b;
+}
+
+.leave-textfield .MuiInputLabel-root.Mui-focused {
+  color: #0b1b2b;
+}
+
+.leave-textfield .MuiFormHelperText-root.Mui-error {
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.error-helper-text {
+  display: block;
+  margin-top: 4px;
+  margin-left: 14px;
+  font-weight: 500 !important;
+}
+
+.upload-btn-leave {
+  border-color: #000000 !important;
+  color: #0b1b2b !important;
+  text-transform: none !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+  justify-content: flex-start !important;
+}
+
+.upload-btn-leave:hover {
+  background-color: #f5f5f5 !important;
+  border-color: #0b1b2b !important;
+}
+
+.preview-container {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #fafafa;
+  border-radius: 8px;
+  border: 1px solid rgba(11, 27, 43, 0.1);
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preview-label {
+  margin-top: 0.5rem;
+  color: #666 !important;
+  font-weight: 500 !important;
+}
+
+.file-name-display {
+  margin-top: 0.5rem;
+  color: #27ae60 !important;
+  font-weight: 600 !important;
+  margin-left: 14px;
+}
+
+.form-buttons-leave {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-submit-leave {
+  background-color: #000000 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.btn-submit-leave:hover {
+  background-color: #1a1a1a !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+  transform: translateY(-1px);
+}
+
+.btn-submit-leave:disabled {
+  background-color: #95a5a6 !important;
+  box-shadow: none !important;
+  transform: none;
+}
+
+.btn-back-leave {
+  border-color: #95a5a6 !important;
+  color: #0b1b2b !important;
+  text-transform: none !important;
+  padding: 0.75rem 2rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-back-leave:hover {
+  background-color: #ecf0f1 !important;
+  border-color: #7f8c8d !important;
+}
+
+/* Success Dialog Styles */
+.success-dialog-paper-leave {
+  border-radius: 12px !important;
+  min-width: 400px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.success-dialog-title-leave {
+  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  color: white !important;
+  padding: 1.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog-title-content-success-leave {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.success-icon-leave {
+  color: white !important;
+  font-size: 1.75rem !important;
+}
+
+.close-button-success-leave {
+  color: white !important;
+  padding: 0.25rem !important;
+}
+
+.close-button-success-leave:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.success-dialog-content-leave {
+  padding: 2rem !important;
+  background-color: #fafafa;
+}
+
+.dialog-text-success-leave {
+  color: #0b1b2b !important;
+  font-size: 1rem !important;
+  text-align: center;
+}
+
+.success-dialog-actions-leave {
+  padding: 1rem 1.5rem 1.5rem !important;
+  background-color: #fafafa;
+  justify-content: center !important;
+}
+
+.btn-ok-leave {
+  background-color: #27ae60 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 0.5rem 2rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+  min-width: 120px;
+}
+
+.btn-ok-leave:hover {
+  background-color: #229954 !important;
+  box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .leave-form-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .leave-form-card {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .leave-form-title {
+    font-size: 1.75rem !important;
+  }
+
+  .form-buttons-leave {
+    flex-direction: column;
+  }
+
+  .btn-submit-leave,
+  .btn-back-leave {
+    width: 100%;
+  }
+
+  .success-dialog-paper-leave {
+    min-width: 300px;
+    margin: 1rem;
+  }
+
+  .btn-ok-leave {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .leave-form-card {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .leave-form-title {
+    font-size: 1.5rem !important;
+  }
+
+  .upload-btn-leave {
+    padding: 0.65rem 1rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  .preview-image {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .leave-form-title {
+    font-size: 1.3rem !important;
+  }
+
+  .btn-submit-leave,
+  .btn-back-leave {
+    padding: 0.65rem 1.5rem !important;
+    font-size: 0.95rem !important;
+  }
+}

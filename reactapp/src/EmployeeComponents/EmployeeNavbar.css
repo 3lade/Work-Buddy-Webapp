@@ -1,0 +1,313 @@
+
+/* EmployeeNavbar.css - Following Dark Theme (MUI) */
+
+.employee-navbar-mui {
+  background: linear-gradient(135deg, #020407 0%, #0b1b2b 100%) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.navbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0 !important;
+}
+
+.navbar-brand-mui {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: white !important;
+  text-decoration: none !important;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand-mui:hover {
+  color: #f5f5f5 !important;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.navbar-menu-mui {
+  display: flex;
+  gap: 0.5rem;
+  flex: 1;
+  justify-content: center;
+  margin: 0 2rem;
+  align-items: center;
+}
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+.nav-link-btn {
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  padding: 0.5rem 1.25rem !important;
+  border-radius: 8px !important;
+  position: relative;
+  transition: all 0.2s ease !important;
+}
+
+.nav-link-btn.dropdown-btn {
+  padding-right: 0.75rem !important;
+}
+
+.nav-link-btn.active {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  font-weight: 700 !important;
+}
+
+.nav-link-btn.active::after {
+  width: 70%;
+}
+
+.nav-link-btn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.nav-link-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.nav-link-btn:hover::after {
+  width: 70%;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-paper {
+  background: linear-gradient(135deg, #0b1b2b 0%, #1a2a3a 100%) !important;
+  border-radius: 8px !important;
+  margin-top: 0.5rem !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  min-width: 180px !important;
+}
+
+.dropdown-item {
+  color: white !important;
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  padding: 0.75rem 1.25rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.navbar-right-mui {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.user-info-mui {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.user-avatar {
+  background: linear-gradient(135deg, #000000 0%, #0b1b2b 100%) !important;
+  color: white !important;
+  font-weight: 600 !important;
+  width: 40px !important;
+  height: 40px !important;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-name {
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.2;
+}
+
+.user-role {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 0.8rem !important;
+  line-height: 1.2;
+}
+
+.logout-btn-mui {
+  background-color: #000000 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  padding: 0.5rem 1.5rem !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.logout-btn-mui:hover {
+  background-color: #1a1a1a !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+  transform: translateY(-1px);
+}
+
+/* Logout Dialog Styles */
+.logout-dialog-paper {
+  border-radius: 12px !important;
+  min-width: 400px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dialog-title {
+  background: linear-gradient(135deg, #020407 0%, #0b1b2b 100%);
+  color: white !important;
+  padding: 1.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog-title-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.warning-icon {
+  color: #ffa726 !important;
+  font-size: 1.75rem !important;
+}
+
+.close-button {
+  color: white !important;
+  padding: 0.25rem !important;
+}
+
+.close-button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.dialog-content {
+  padding: 2rem !important;
+  background-color: #fafafa;
+}
+
+.dialog-text {
+  color: #0b1b2b !important;
+  font-size: 1rem !important;
+  text-align: center;
+}
+
+.dialog-actions {
+  padding: 1rem 1.5rem 1.5rem !important;
+  background-color: #fafafa;
+  gap: 1rem;
+  justify-content: center !important;
+}
+
+.btn-cancel-mui {
+  border-color: #95a5a6 !important;
+  color: #0b1b2b !important;
+  text-transform: none !important;
+  padding: 0.5rem 1.5rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-cancel-mui:hover {
+  background-color: #ecf0f1 !important;
+  border-color: #7f8c8d !important;
+}
+
+.btn-logout-mui {
+  background-color: #000000 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 0.5rem 1.5rem !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-logout-mui:hover {
+  background-color: #1a1a1a !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .navbar-toolbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0 !important;
+  }
+
+  .navbar-menu-mui {
+    flex-direction: column;
+    gap: 0.25rem;
+    margin: 0;
+    width: 100%;
+  }
+
+  .nav-link-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbar-right-mui {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .user-info-mui {
+    flex: 1;
+  }
+
+  .logout-dialog-paper {
+    min-width: 300px;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand-mui {
+    font-size: 1.25rem !important;
+  }
+
+  .user-info-mui {
+    padding: 0.4rem 0.75rem;
+  }
+
+  .user-avatar {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .user-name {
+    font-size: 0.85rem !important;
+  }
+
+  .user-role {
+    font-size: 0.75rem !important;
+  }
+
+  .logout-btn-mui {
+    padding: 0.4rem 1rem !important;
+    font-size: 0.9rem !important;
+  }
+}

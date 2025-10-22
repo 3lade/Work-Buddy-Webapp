@@ -1,0 +1,125 @@
+/* Custom Toast Styling to match UI aesthetic */
+
+/* Override default toastify styles */
+.Toastify__toast-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Toastify__toast {
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 64px;
+  animation-duration: 0.4s; /* merged here */
+}
+
+/* Success Toast - Teal/Turquoise theme */
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #008080, #00cc99);
+  color: white;
+  border-left: 5px solid #00ffcc;
+}
+
+.Toastify__toast--success .Toastify__toast-icon {
+  color: white;
+}
+
+.Toastify__toast--success .Toastify__progress-bar {
+  background: #00ffcc;
+}
+
+/* Error Toast - Red with gradient */
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #dc3545, #e74c3c);
+  color: white;
+  border-left: 5px solid #ff6b6b;
+}
+
+.Toastify__toast--error .Toastify__toast-icon {
+  color: white;
+}
+
+.Toastify__toast--error .Toastify__progress-bar {
+  background: #ff6b6b;
+}
+
+/* Info Toast - Blue theme */
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #007bff, #1976d2);
+  color: white;
+  border-left: 5px solid #4dabf7;
+}
+
+.Toastify__toast--info .Toastify__toast-icon {
+  color: white;
+}
+
+.Toastify__toast--info .Toastify__progress-bar {
+  background: #4dabf7;
+}
+
+/* Warning Toast - Orange/Yellow theme */
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #ffc107, #ff9800);
+  color: #333;
+  border-left: 5px solid #ffab00;
+}
+
+.Toastify__toast--warning .Toastify__toast-icon {
+  color: #333;
+}
+
+.Toastify__toast--warning .Toastify__progress-bar {
+  background: #ffab00;
+}
+
+/* Close button styling */
+.Toastify__close-button {
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+}
+
+.Toastify__toast--warning .Toastify__close-button {
+  color: #333;
+}
+
+/* Progress bar styling */
+.Toastify__progress-bar {
+  height: 4px;
+}
+
+/* Body text styling */
+.Toastify__toast-body {
+  padding: 6px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Icon styling */
+.Toastify__toast-icon {
+  width: 24px;
+  margin-right: 12px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 480px) {
+  .Toastify__toast-container {
+    width: 100vw;
+    padding: 0;
+    left: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .Toastify__toast {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+}

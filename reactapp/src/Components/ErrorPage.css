@@ -1,0 +1,30 @@
+.error-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .error-content {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .error-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .error-content h1 {
+    font-size: 2rem;
+    color: #e74c3c;
+    margin-bottom: 1rem;
+  }
+  
+  .error-content p {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 0.5rem 0;
+  }
