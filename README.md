@@ -73,7 +73,7 @@ Work Buddy WebApp streamlines employee leave and work-from-home (WFH) request ma
 <td width="33%">
 
 ### 📊 Manager Dashboard
-![Manager View](https://raw.githubusercontent.com/amanmittal04/static-demo-images/main/workbuddy-manager.png)
+![Manager View](https://github.com/3lade/Work-Buddy-Webapp/blob/62d94c22bdbcb72694e73cc357713d806339fa61/ss/Screenshot%202025-10-23%20115826.png)
 - Request summary cards
 - Tabbed interface
 - Quick action buttons
