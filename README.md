@@ -65,7 +65,7 @@ Work Buddy WebApp streamlines employee leave and work-from-home (WFH) request ma
 <td width="33%">
 
 ### 📋 Leave Request UI
-![Leave Form](https://raw.githubusercontent.com/amanmittal04/static-demo-images/main/workbuddy-leave.png)
+![Leave Form](https://github.com/3lade/Work-Buddy-Webapp/blob/5adf34085ccc3105710ded98d522173ff8162c12/ss/Screenshot%202025-10-23%20120008.png)
 - Date range pickers
 - Type selection
 - Reason field with validation
