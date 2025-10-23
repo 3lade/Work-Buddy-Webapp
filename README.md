@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzZjUxYjU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMjE5NmYzO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9InVybCgjZ3JhZCkiLz4KICAgIDx0ZXh0IHg9IjQwMCIgeT0iMTAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+V29yayBCdWRkeTwvdGV4dD4KICAgIDx0ZXh0IHg9IjQwMCIgeT0iMTUwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+TW9kZXJuIExlYXZlICYgV0ZIIE1hbmFnZW1lbnQ8L3RleHQ+Cjwvc3ZnPg==" alt="Work Buddy Banner" width="800" height="200" />
+![Work Buddy Banner](https://github.com/amanmittal04/static-demo-images/raw/main/workbuddy-banner.png)
 
 [![Node.js](https://img.shields.io/badge/node-v18.x-brightgreen.svg)](https://nodejs.org)
 [![React](https://img.shields.io/badge/react-v18.2.0-blue.svg)](https://reactjs.org)
@@ -57,7 +57,7 @@ Work Buddy WebApp streamlines employee leave and work-from-home (WFH) request ma
 <td width="33%">
 
 ### 📱 Modern Login
-![Login Screen](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgICA8cmVjdCB4PSI1MCIgeT0iMzAiIHdpZHRoPSIyMDAiIGhlaWdodD0iMTQwIiBmaWxsPSJ3aGl0ZSIgcng9IjQiLz4KICAgIDxyZWN0IHg9IjcwIiB5PSI2MCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIyNSIgZmlsbD0iI2Y1ZjVmNSIgcng9IjIiLz4KICAgIDxyZWN0IHg9IjcwIiB5PSI5NSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIyNSIgZmlsbD0iI2Y1ZjVmNSIgcng9IjIiLz4KICAgIDxyZWN0IHg9IjcwIiB5PSIxMzAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMjUiIGZpbGw9IiMzZjUxYjUiIHJ4PSIyIi8+Cjwvc3ZnPg==)
+![Login Screen](https://raw.githubusercontent.com/amanmittal04/static-demo-images/main/workbuddy-login.png)
 - Material-UI Paper components
 - Clean form layout
 - Error handling with toast
@@ -65,7 +65,7 @@ Work Buddy WebApp streamlines employee leave and work-from-home (WFH) request ma
 <td width="33%">
 
 ### 📋 Leave Request UI
-![Leave Form](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgICA8cmVjdCB4PSIyMCIgeT0iMjAiIHdpZHRoPSIyNjAiIGhlaWdodD0iMTYwIiBmaWxsPSJ3aGl0ZSIgcng9IjQiLz4KICAgIDxyZWN0IHg9IjQwIiB5PSI0MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIyMCIgZmlsbD0iIzNmNTFiNSIgcng9IjIiLz4KICAgIDxyZWN0IHg9IjQwIiB5PSI3MCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSIzMCIgZmlsbD0iI2Y1ZjVmNSIgcng9IjIiLz4KICAgIDxyZWN0IHg9IjQwIiB5PSIxMTAiIHdpZHRoPSIyMjAiIGhlaWdodD0iNDAiIGZpbGw9IiNmNWY1ZjUiIHJ4PSIyIi8+CiAgICA8cmVjdCB4PSI0MCIgeT0iMTYwIiB3aWR0aD0iODAiIGhlaWdodD0iMTAiIGZpbGw9IiMzZjUxYjUiIHJ4PSIyIi8+Cjwvc3ZnPg==)
+![Leave Form](https://raw.githubusercontent.com/amanmittal04/static-demo-images/main/workbuddy-leave.png)
 - Date range pickers
 - Type selection
 - Reason field with validation
@@ -73,7 +73,7 @@ Work Buddy WebApp streamlines employee leave and work-from-home (WFH) request ma
 <td width="33%">
 
 ### 📊 Manager Dashboard
-![Manager View](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjZjVmNWY1Ii8+CiAgICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIxMzUiIGhlaWdodD0iODAiIGZpbGw9IndoaXRlIiByeD0iNCIvPgogICAgPHJlY3QgeD0iMTU1IiB5PSIxMCIgd2lkdGg9IjEzNSIgaGVpZ2h0PSI4MCIgZmlsbD0id2hpdGUiIHJ4PSI0Ii8+CiAgICA8cmVjdCB4PSIxMCIgeT0iMTAwIiB3aWR0aD0iMjgwIiBoZWlnaHQ9IjkwIiBmaWxsPSJ3aGl0ZSIgcng9IjQiLz4KICAgIDxyZWN0IHg9IjIwIiB5PSIxMjAiIHdpZHRoPSIyNjAiIGhlaWdodD0iMjAiIGZpbGw9IiNmNWY1ZjUiIHJ4PSIyIi8+CiAgICA8cmVjdCB4PSIyMCIgeT0iMTUwIiB3aWR0aD0iMjYwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjZjVmNWY1IiByeD0iMiIvPgo8L3N2Zz4=)
+![Manager View](https://raw.githubusercontent.com/amanmittal04/static-demo-images/main/workbuddy-manager.png)
 - Request summary cards
 - Tabbed interface
 - Quick action buttons
