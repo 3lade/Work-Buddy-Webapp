@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Work Buddy Banner](https://via.placeholder.com/800x200?text=Work+Buddy+WebApp)
+![Work Buddy Banner]([https://via.placeholder.com/800x200?text=Work+Buddy+WebApp](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjrBSg6dz7GWqnq1hw_HrkcJZohNF3OksbzQ&s))
 
 [![Node.js Version](https://img.shields.io/badge/node-v18.x-brightgreen.svg)](https://nodejs.org)
 [![React Version](https://img.shields.io/badge/react-v18.2.0-blue.svg)](https://reactjs.org)
