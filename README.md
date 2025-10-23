@@ -57,7 +57,7 @@ Work Buddy WebApp streamlines employee leave and work-from-home (WFH) request ma
 <td width="33%">
 
 ### 📱 Modern Login
-![Login Screen](https://raw.githubusercontent.com/amanmittal04/static-demo-images/main/workbuddy-login.png)
+![Login Screen]([https://raw.githubusercontent.com/amanmittal04/static-demo-images/main/workbuddy-login.png](https://github.com/3lade/Work-Buddy-Webapp/blob/b7fa4ce3b22f9045a9c49d29055faad1ea37cd84/ss/Screenshot%202025-10-23%20115701.png))
 - Material-UI Paper components
 - Clean form layout
 - Error handling with toast
