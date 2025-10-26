@@ -328,7 +328,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ by the Work Buddy Team
+Made with ❤️ by 3lade and his minions
 
 [Report Bug](../../issues) • [Request Feature](../../issues)
 
